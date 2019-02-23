@@ -8,6 +8,7 @@ import primeroo.*;
 /* 4.1. Visualiza el apellido y el salario del empleado con número: 7369 */
 
 public class Bateria04_Ejerc01_Hibernate {
+	
 	public static void main(String[] args) {
 		Configuration config = new Configuration().configure();
 		SessionFactory sessionFactory = config.buildSessionFactory (new StandardServiceRegistryBuilder().configure().build());

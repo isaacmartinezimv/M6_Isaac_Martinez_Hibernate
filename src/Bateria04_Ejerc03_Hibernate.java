@@ -13,6 +13,7 @@ import primeroo.*;
  * modifique el salario y el departamento del empleado 7369, sumando 1000 al salario y asignándole el departamento 30.*/
 
 public class Bateria04_Ejerc03_Hibernate {
+	
 	public static void main(String[] args) {
 		Configuration cfg = new Configuration().configure();
 		SessionFactory sessionFactory = cfg.buildSessionFactory (new StandardServiceRegistryBuilder().configure().build() ) ;

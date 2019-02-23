@@ -8,7 +8,6 @@ import org.hibernate.Transaction;
 public class Bateria02_Ejerc01_Hibernate {
 
 	public static void main(String[] args){
-
 		//En primer lugar se obtiene la sesión creada por el Singleton
 		SessionFactory sesion = HibernateUtil.getSessionFactory();
 

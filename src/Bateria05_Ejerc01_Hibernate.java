@@ -9,6 +9,7 @@ import primeroo.*;
  * necesaria es: “from Emple as e where e.depart.deptNo=20”) */
 
 public class Bateria05_Ejerc01_Hibernate {
+	
 	public static void main(String[] args) {
 		SessionFactory sesion = HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();

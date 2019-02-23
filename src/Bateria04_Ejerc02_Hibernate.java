@@ -13,6 +13,7 @@ import primeroo.*;
  * Iterator (java.util.Iterator) para recorrer la lista de empleados. */
 
 public class Bateria04_Ejerc02_Hibernate {
+	
 	public static void main(String[] args) {
 		Configuration config = new Configuration().configure();
 		SessionFactory sessionFactory = config.buildSessionFactory (new StandardServiceRegistryBuilder().configure().build() ) ;

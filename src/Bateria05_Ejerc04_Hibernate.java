@@ -11,6 +11,7 @@ import primeroo.*;
  * las funciones de agregación. Verás que es lo mismo que en SQL). */
 
 public class Bateria05_Ejerc04_Hibernate {
+	
 	public static void main(String[] args) {
 		SessionFactory sesion = HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();

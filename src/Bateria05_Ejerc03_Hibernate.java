@@ -11,6 +11,7 @@ import primeroo.*;
  * (Ayuda: consulta en el manual de HQL cómo realizar un JOIN. Observarás que es muy parecido a SQL) */
 
 public class Bateria05_Ejerc03_Hibernate {
+	
 	public static void main(String[] args) {
 		SessionFactory sesion = HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();

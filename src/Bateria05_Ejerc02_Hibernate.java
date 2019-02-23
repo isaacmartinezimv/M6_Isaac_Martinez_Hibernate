@@ -8,6 +8,7 @@ import primeroo.*;
 /* 5.2. Visualiza los datos del señor “ARROYO” */
 
 public class Bateria05_Ejerc02_Hibernate {
+	
 	public static void main(String[] args) {
 		SessionFactory sesion = HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();

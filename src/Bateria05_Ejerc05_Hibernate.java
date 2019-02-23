@@ -8,6 +8,7 @@ import primeroo.*;
 /* 5. 5. Muestra el salario medio y el número de empleados por departamento */
 
 public class Bateria05_Ejerc05_Hibernate {
+	
 	public static void main(String[] args) {
 		SessionFactory sesion = HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();
